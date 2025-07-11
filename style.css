@@ -1,0 +1,273 @@
+@font-face {
+  font-family: neue;
+  src: url(./RevxNeueDemo-Regular.ttf);
+}
+@font-face {
+  font-family: logo;
+  src: url(./Blank\ Script.otf);
+}
+@font-face {
+  font-family: basic;
+  src: url(./CreatoDisplay-Regular.otf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html ,
+body {
+  height: 100%;
+  width: 100%;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color:beige;
+  color:black;
+}
+.complete{
+  height: 100%;
+  width: 100%;
+}
+#cursor{
+  width: 35px;
+  height: 35px;
+  color: black;
+  font-size: 8px;
+  padding-top: 10px;
+  font-weight: 750;
+  border-radius: 50%;
+  align-items: center;
+  border:none;
+  position: fixed;
+  background-color: lightblue;
+}
+nav{
+  padding: 40px;
+  width: 100%;
+  height: 8%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+nav .part1{
+  display: flex;
+  gap: 13px;
+  align-items: center;
+  position: relative;
+  padding-left: 38px;
+
+}
+nav i{
+  font-size: 30px;
+  display: inline-block;
+  rotate: 45deg;
+}
+nav h1{
+  font-size: 35px;
+  font-family: logo;
+}
+nav .part2{
+  display:flex;
+  flex-direction: row;
+  gap:50px;
+  position: relative;
+  padding-right: 26px;
+}
+nav .part2 h4{
+  font-size: 18px;
+  font-weight: 400;
+  font-family: basic;
+  padding: 12px;
+  cursor: pointer;
+}
+nav .part2 button{
+  font-size: 16px;
+  color: white;
+  background-color: black;
+  border-radius: 10px;
+  border:none;
+  opacity: 0.9;
+  padding-top:6px;
+  padding-bottom: 6px;
+  padding-left: 8px;
+  padding-right: 8px;
+  font-family: basic;
+  cursor: pointer;
+}
+
+.section1{
+  width: 100%;
+  height: 70%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.section1 #part1{
+  height: 100%;
+  width: 45%;
+  padding-left: 38px;
+}
+.section1 #part2{
+  width: 55%;
+  height:100%
+}
+.section1 #part1 h1{
+  font-size: 60px;
+  font-family: basic;
+  font-weight: 570;
+  padding:42px;
+}.section1 #part1 p{
+  margin-top: 0px;
+  font-size: 20px;
+  font-family: basic;
+  padding-left:42px;
+  margin-right: 20px;
+}
+.section1 #part1 button{
+  color: white;
+  background-color: black;
+  margin-left:42px;
+  font-size: 18px;
+  margin-top: 30px;
+  padding: 15px;
+  letter-spacing: 2px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+.section1 #part2 img{
+  height: 90%;
+  margin-left: 120px;
+  margin-top: 40px;
+}
+.section2{
+  padding: 0px 42px 0px 42px;
+  width: 100%;
+  height: 10%;
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.section2 img{
+  width: 200px;
+  height: 120px;
+  cursor: pointer;
+}
+.mid{
+  width: 60%;
+  height: 10%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap:30px;
+}
+.mid h1{
+  margin: 15px 0px 10px 72px;
+  border-radius: 10px;
+  padding-left:10px;
+  padding-right:10px;
+  padding-bottom: 8px;
+  font-size: 30px;
+  font-weight: 600;
+  background-color: lightblue;
+  cursor: pointer;
+  margin-bottom:-5px;
+}
+.mid p{
+  margin-top:18px;
+}
+#string{
+    height: 100px;
+    width: 100%;
+    margin-top: -20px;
+    margin-bottom: 15px;
+    /* background-color: rgb(218, 174, 93); */
+}
+#string svg{}
+
+.flex-layout{
+  width: 100%;
+  height: 60%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.four{
+  margin-top: 40px;
+  margin-right: 40px;
+  margin-bottom: 20px;
+  background-color: white;
+  height: 50%;
+  width: 35%;
+  display: flex;
+  justify-content:space-between;
+  border-radius: 10px;
+  box-shadow:0px 8px 0px rgb(31, 31, 31) ;
+  padding: 18px 0px 0px 30px;
+}
+#black{
+  background-color: rgb(31, 31, 31);
+}
+
+.a{
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 58px;
+  width: 40%;
+  height: 100%;
+}
+#email{
+  gap: 80px;
+}
+.b{
+  margin-top: 15px;
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* gap: 88px; */
+  width: 40%;
+  height: 100%;
+  
+}
+.a h2{
+  font-size: 19px;
+  padding: 10px 8px 10px 8px;
+  background-color: lightblue;
+  border-radius:5px;
+}
+.a section{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.a img {
+  width: 30px;
+  height: 30px;
+  color: black;
+  border-radius: 50%;
+  background-color: lightblue;
+  cursor: pointer;
+}
+.b img{
+  width:100%;
+  height: 80%;
+  padding-right: 20px;
+}
+
+.theme{
+  background-color: black;
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  margin-top: 2px;
+  margin-left: -24px;
+  cursor: pointer;
+}
+.theme img{
+  width: 32px;
+  height: 32px;
+  padding: 5px;
+  margin-top:2px;
+  margin-left: 4px;
+}
